@@ -11736,9 +11736,30 @@ html.rd-navbar-fixed-linked .page {
     text-align: center;
 }
 
+@media screen and (max-width: 1290px) {
+    .page-header-2-image-wrap {
+        max-width: 500px;
+    }
+    .breadcrumbs-custom-image-norman {
+        max-width: 290px;
+    }
+}
+
 @media (min-width: 1200px) {
     #DateCountdown {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .page-header-2-image-wrap {
+        max-width: 420px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .page-header-2-image-wrap {
+        display: none;
     }
 }
 
@@ -11759,6 +11780,12 @@ html.rd-navbar-fixed-linked .page {
 
 .time_circles>div>h4+* {
     margin-top: 0;
+}
+
+@media screen and (max-width: 990px) {
+    .breadcrumbs-custom-image-norman {
+        max-width: 150px;
+    }
 }
 
 @media (min-width: 768px) {
