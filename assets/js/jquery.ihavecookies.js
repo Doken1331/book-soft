@@ -22,12 +22,12 @@
                 }
             ],
             title: 'Cookies & Privacy',
-            message: 'Strony internetowe wykorzystują pliki cookies.',
+            message: 'Webové stránky používajú cookies.',
             link: 'privacy.html',
             delay: 0,
             expires: 30,
-            moreInfoLabel: 'Dodatkowe informacje',
-            acceptBtnLabel: 'Zgadzam się',
+            moreInfoLabel: 'Ďalšie informácie',
+            acceptBtnLabel: 'Súhlasím',
 
             cookieTypesTitle: 'Select cookies to accept',
             fixedCookieTypeLabel: 'Necessary',
